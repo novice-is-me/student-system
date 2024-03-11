@@ -1,0 +1,84 @@
+h2{
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+li{ 
+    list-style-type: none;
+    padding: 1.5rem 0; 
+    font-family: var(--font-text);
+    font-weight: 500;
+}
+
+label, 
+input{
+    font-family: var(--font-text); 
+}
+.main-container {
+    display: flex;
+} 
+
+/* for dashboard */
+.admin-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 120px;
+    margin-bottom: 2rem;
+}
+
+.dashboard-container{
+    background-color: #0e0e0e;
+}
+
+ul li:hover{
+    cursor: pointer;
+    background-color:  #4e4376; 
+}
+ 
+.options{
+    margin-bottom: 16.5rem;
+}
+
+.admin{
+    padding: 2.5rem;
+    padding-bottom: 0 !important;
+}
+
+.admin h2{
+    border-top: 1px solid white; 
+    padding-top: 1rem;
+}
+
+/* for data container */
+.data-container,
+.view-info{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    padding: 2rem;
+}
+
+h1{
+    font-family: var(--font-text);
+    font-weight: 800;
+}
+
+/* for view comtainer */
+.view-data{
+    background-color: white; 
+    color: black;
+    padding: 2rem;
+}
+
+/* for modal */
+.modal-container{
+    background-color: rgb(118, 118, 118);
+    padding: 2rem;
+    position: fixed;
+    top: 20%;
+    left: 30%; 
+    width: 50%; 
+} 
+
+.btn-modal:active .main-container{
+    background: transparent;
+}
